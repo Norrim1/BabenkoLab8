@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Facts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="first-screen" id="first-screen">
+    <label class="name-label" id="name-label">Добро пожаловать, странник! Я буду звать тебя </label>
+        <div>
+            <button type="button" class="button" id="reroll-button">А может не надо?..</button>
+            <button type="button" class="button" id="next-button">Ладно...</button>
+        </div>
+        <script src="first-screen.js"></script>
+    </section>
+    <section class="second-screen" id="second-screen">
+    <label class="name-label" id="name-label">На чьей ты стороне?</label>
+        <button type="button" class="button" id="cat-button">Коты</button>
+        <button type="button" class="button" id="dog-button">Собаки</button>
+        <button type="button" class="button" id="fox-button">Лисы</button>
+    <script src="second-screen.js"></script>
+    </section>
+    <section class="third-screen" id="third-screen">
+    <div class="api-content" id="api-content">
+    </div>
+    <label class="name-label" id="name-label"></label>
+    <button type="button" class="button" id="reroll-second-button">Ещё факты</button>
+    <script src="third-screen.js"></script>
+    </section>
+</body>
+</html>
